@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+header {
+    background-color: #000000;
+
+    font-family: "Rubik Moonrocks", sans-serif;
+    color: #8E05C2;
+    text-align: center;
+    
+    padding: 2em;
+}
+
+main {
+    font-family: sans-serif;
+    background-color: #3E065F;
+    color: rgb(255, 255, 255);  
+}
+
+.container {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 2em;
+}
+
+.container h2 {
+    font-size: 1.75em;
+}
+
+.container p {
+    padding: 0.5em 0;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+
+    background-color: #8E05C2;
+    border: 0.2em solid #ffffff;
+    border-radius: 10em;
+
+    gap: 4em;
+
+    padding: 3em 2em;
+    margin: 1em 0;
+}   
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score p {
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+.left {
+    padding-left: 5em;
+}
+
+.right {
+    padding-right: 5em;
+}
+
+.choiceboard {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    
+    padding: 2em 2em;
+}
+
+.game-img{
+    width: 10em;
+    height: auto;
+    display: block;
+}
+
+.choice-btn {
+    background-color: #8E05C2;
+    border: 0.2em solid #ffffff;
+    border-radius: 3em;
+}
+
+.choice-btn:hover{
+    cursor: pointer;
+    background-color: #700B97;
+}
+
+
+footer {
+    background-color: #000000;
+    color:#fff;
+    text-align: center;
+
+    padding: 2em;
+}
