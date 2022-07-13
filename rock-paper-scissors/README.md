@@ -6,3 +6,4 @@ It was used to learn:
 - CSS
 - JavaScript Basics
 
+Preview Link: https://htmlpreview.github.io/?https://github.com/batoomer/basic-frontend/blob/main/rock-paper-scissors/index.html
