@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Etch a Sketch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>Etch a Sketch</h1>
+    </header>
+
+    <main>
+        <div class="option-menu">
+            <h2>Options:</h2>
+            <div class="option-item">
+                <label for="grid-color-box" class="color-box-text">Color:</label>
+                <input id="grid-color-box" class="grid-color-box" type="color">
+            </div>
+            <div class="option-item">
+                <p class="paint-mode-text">Paint Mode:</p>
+                <button class="btn btn-paint active">Paint</button>
+                <button class="btn btn-erase">Eraser</button>
+                <button class="btn btn-rainbow">Rainbow</button>
+            </div>
+
+            <div class="option-item">
+                <p class="grid-size-title">Borders:</p>
+                <button class="btn btn-border">Off</button>
+            </div>
+
+            <div class="option-item">
+                <p class="grid-size-title">Grid size:</p>
+                <input class="grid-size-slider" type="range", min="10" max="100" value="16" step="1" id="slider">
+                <label class="grid-size-label" for="slider"><span class="grid-size-text">16 x 16</span></label>
+            </div>
+
+            
+
+            <div class="option-item">
+                <button class="btn btn-clear">Clear</button>
+            </div>
+        </div>    
+       
+       
+        <div class="container">
+            <div id="grid-container">
+                <!-- GRID CREATED WITH JS-->
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>No Copyright &copy; 2022 Batouchan Omer</p>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>
